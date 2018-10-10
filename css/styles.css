@@ -26,6 +26,11 @@ a:hover {
 	color: #A8D7E4;
 }
 
+h2 {
+	font-size: 18px;
+	border-bottom: 1px dotted #333;
+}
+
 .header {
 	display: block;
 	width: 100%;
