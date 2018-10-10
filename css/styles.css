@@ -3,9 +3,25 @@ html, body {
 	height: 100%;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
-	font-family: Montserrat, "Open Sans Light", Helvetica, Arial, sans-serif;
-	font-weight: lighter;
-	font-size: 11px;
+	font-family: Montserrat, "Oxygen", "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+p {
+	margin: 20px;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover, a:active, a:visited {
+	color: #A8D7E4;
+	font-weight: bold;
 }
 
 .header {
@@ -125,6 +141,7 @@ html, body {
 	background-image: url("../images/menuRight.png");
 	background-repeat: repeat-y;
 	background-position: top right;
+	padding-left: 20px;
 }
 
 .middle .menu .t {
@@ -171,4 +188,5 @@ ul {
 }
 
 .level-0 { 
+	
 }
