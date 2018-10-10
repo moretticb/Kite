@@ -1,6 +1,10 @@
 # Kite Messenger &mdash; README file
 
-Developed by Caio Benatti Moretti (www.moretticb.com). This project is divided in two main folders:
+Kite Messenger is a threaded chat for the discussion of multiple subjects, keeping track of every line of discussion. Kite Messenger was developed by [Caio Benatti Moretti](http://www.moretticb.com).
+
+This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](http://www.gnu.org/licenses/) for more details. You should have received a copy of the GNU General Public License along with this program. If not, see [here](http://www.gnu.org/licenses/).
+
+This project is divided in two main folders:
 
 * **Source/** &mdash; Source code of client and server implementations
 * **Environment/** &mdash; Test environment for launching the Kite Messenger Server and using the Kite Messenger Client
@@ -40,5 +44,7 @@ Having a Kite Messenger Server available, the client can be used. To execute it,
 
 Once opened, go to preferences (the bottom right gear icon) to set the due IP address and port. Afterwards, go back to the main screen and sign up to have an username and password at the specified server.
 
-After such configurations, you are ready to go Kiting. The interface is very intuitiveand easy to use. Have fun with threaded discussions :)
+After such configurations, you are ready to go Kiting. The interface is very intuitiveand easy to use. Have fun with threaded discussions.
 
+
+Fork me on GitHub :)
