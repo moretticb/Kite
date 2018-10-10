@@ -164,6 +164,11 @@ html, body {
 	display: inline-block;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
 .level-0 { 
-	 list-style-type: none;
 }
