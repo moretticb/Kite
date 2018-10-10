@@ -132,9 +132,11 @@ a:hover {
 
 .middle .menu .b, .middle .menu .t { width: 180px; }
 
+/* consider a padding of 12px, discounting in the width */
 .middle .menu .cont {
 	background-color: #fcfcfc;
-	width: 192px;
+	padding: 12px;
+	width: 180px;
 	min-height: 150px;
 	clear: left;
 	float: left;
