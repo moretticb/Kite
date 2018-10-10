@@ -15,7 +15,7 @@ function fixLayout(){
 
 	var margins = 12;
 	
-	middle.style.minHeight = (document.body.offsetHeight-header.offsetHeight-footer.offsetHeight+header.offsetHeight)+"px";
+	middle.style.minHeight = (document.body.offsetHeight-header.offsetHeight-footer.offsetHeight)+"px";
 
 	pageCont.style.width = (document.body.offsetWidth - menu.offsetWidth - margins*2)+"px";
 	pageCont.style.marginLeft = (menu.offsetWidth + margins)+"px";
