@@ -16,7 +16,7 @@ p {
 
 a, a:active, a:visited {
 	text-decoration: none;
-	color: #666;
+	color: #000;
 	font-weight: bold;
 }
 
@@ -190,11 +190,12 @@ a:hover {
 
 .menu .level-1 { 
 	font-weight: bold;
-	line-height: 2;
+	line-height: 3;
 	font-size: 12px;
 }
 
-.menu .level-2 { 
+.menu .level-2, .menu .level-3 { 
 	line-height: 2;
 	font-size: 12px;
+	font-weight: normal;
 }
