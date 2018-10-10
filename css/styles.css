@@ -5,7 +5,7 @@ html, body {
 	padding: 0px 0px 0px 0px;
 	font-family: Montserrat, "Oxygen", "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: 100;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 1.6;
 }
 
@@ -14,14 +14,14 @@ p {
 	color: #333;
 }
 
-a {
+a, a:active, a:visited {
 	text-decoration: none;
 	color: #666;
+	font-weight: bold;
 }
 
-a:hover, a:active, a:visited {
+a:hover {
 	color: #A8D7E4;
-	font-weight: bold;
 }
 
 .header {
@@ -181,12 +181,20 @@ a:hover, a:active, a:visited {
 	display: inline-block;
 }
 
-ul {
+.menu ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
+
 }
 
-.level-0 { 
-	
+.menu .level-1 { 
+	font-weight: bold;
+	line-height: 2;
+	font-size: 12px;
+}
+
+.menu .level-2 { 
+	line-height: 2;
+	font-size: 12px;
 }
