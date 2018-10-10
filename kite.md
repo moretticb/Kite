@@ -1,4 +1,4 @@
-## Intro
+## Overview
 
 Kite Messenger is a threaded chat for the discussion of multiple subjects, keeping track of every line of discussion. Kite Messenger was developed by [Caio Benatti Moretti](http://www.moretticb.com).
 
@@ -47,4 +47,4 @@ Once opened, go to preferences (the bottom right gear icon) to set the due IP ad
 After such configurations, you are ready to go Kiting. The interface is very intuitiveand easy to use. Have fun with threaded discussions.
 
 
-Fork me on GitHub :)
+Fork me on [GitHub](http://github.com/moretticb/Kite/tree/master/Source/Kite) :)
