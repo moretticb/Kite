@@ -4,6 +4,7 @@ html, body {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	font-family: Montserrat, "Open Sans Light", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
 	font-size: 11px;
 }
 
@@ -53,6 +54,7 @@ html, body {
 	background-image: url("../images/kiteMessenger.png");
 	background-repeat: no-repeat;
 
+	color: #CCC;
 	font-size: 11px;
 	text-indent: 4px;
 	cursor: default;
