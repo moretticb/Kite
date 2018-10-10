@@ -141,7 +141,6 @@ a:hover {
 	background-image: url("../images/menuRight.png");
 	background-repeat: repeat-y;
 	background-position: top right;
-	padding-left: 20px;
 }
 
 .middle .menu .t {
@@ -183,7 +182,7 @@ a:hover {
 
 .menu ul {
 	list-style-type: none;
-	margin: 0px;
+	margin: 20px;
 	padding: 0px;
 
 }
