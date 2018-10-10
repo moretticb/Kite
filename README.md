@@ -1,16 +1,16 @@
-# Kite Messenger -- README file
+# Kite Messenger---README file
 
 Developed by Caio Benatti Moretti (www.moretticb.com). This project is divided in two main folders:
 
-* **Source/** -- Source code of client and server implementations
-* **Environment/** -- Test environment for launching the Kite Messenger Server and using the Kite Messenger Client
+* **Source/**---Source code of client and server implementations
+* **Environment/**---Test environment for launching the Kite Messenger Server and using the Kite Messenger Client
 
 ## Source Code
 
 The **Source/** folder encompasses two *Eclipse* project folders:
 
-* **Kite/** -- Kite Messenger Client
-* **KiteServer/** -- Kite Messenger Server
+* **Kite/**---Kite Messenger Client
+* **KiteServer/**---Kite Messenger Server
 
 ## Environment
 
@@ -20,11 +20,11 @@ The Kite Messenger structure consists of an HSQLDB database and Java application
 
 The Kite Messenger Server root directory (**kiteServer/** folder) is structured as follows:
 
-* **data/** -- Database files with the current server state (empty folder in first execution)
-* **jars/** -- JAR files for the Kite Server and the HSQLDB database
-* **scripts/** -- Script files (bat and sh) for managing HSQLDB database
-* **kiteServer.sh** -- Kite Messenger Server launcher for *Linux*
-* **kiteServer.bat** -- Kite Messenger Server launcher for *Windows*
+* **data/**---Database files with the current server state (empty folder in first execution)
+* **jars/**---JAR files for the Kite Server and the HSQLDB database
+* **scripts/**---Script files (bat and sh) for managing HSQLDB database
+* **kiteServer.sh**---Kite Messenger Server launcher for *Linux*
+* **kiteServer.bat**---Kite Messenger Server launcher for *Windows*
 
 Launch the Kite Messenger Server with the *sh* or *bat* file. The first execution will create the database structure for the Kite Messenger Server. Next executions will consider the previous state with the registered users and their firendship relationships if **data/** folder remains unchanged.
 
@@ -34,7 +34,7 @@ In Windows, run `kiteServer.bat` to initiate both the HSQLDB database server (ba
 
 In Linux, simply run `kiteServer.sh`, regardless of whether the database is already running. If so, its PID is will be shown; otherwise, the database will be initiated. Kill the PID if both servers are needed to be shut down.
 
-## Client
+### Client
 
 Having a Kite Messenger Server available, the client can be used. To execute it, run `java -jar kite.jar`.
 
