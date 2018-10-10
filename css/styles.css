@@ -139,7 +139,7 @@ a:hover {
 	background-color: #fcfcfc;
 	padding-left: 12px;
 	width: 130px;
-	min-height: 150px;
+	min-height: 80px;
 	clear: left;
 	float: left;
 	background-image: url("../images/menuRight.png");
@@ -202,7 +202,15 @@ a:hover {
 
 .menu .level-3 {
 	text-transform: capitalize;
-	line-height: 1;
-	font-size: 11px;
+	line-height: 1.2;
+	font-size: 12px;
 	font-weight: normal;
+}
+
+.menu a {
+	color: #999;
+}
+
+.menu a:hover {
+	color: #333;
 }
