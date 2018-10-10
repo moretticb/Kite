@@ -188,12 +188,14 @@ a:hover {
 }
 
 .menu .level-1, .menu .level-2 { 
+	margin-top: 20px;
 	font-weight: bold;
 	line-height: 1.6;
 	font-size: 12px;
 }
 
-.menu .level-3 { 
+.menu .level-3 {
+	margin-top: 5px;
 	line-height: 1;
 	font-size: 12px;
 	font-weight: normal;

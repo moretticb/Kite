@@ -17,7 +17,8 @@ function fixLayout(){
 	
 	middle.style.minHeight = (document.body.offsetHeight-header.offsetHeight-footer.offsetHeight)+"px";
 
-	pageCont.style.width = (document.body.offsetWidth - menu.offsetWidth - margins*2)+"px";
+	//pageCont.style.width = (document.body.offsetWidth - menu.offsetWidth - margins*2)+"px";
+	pageCont.style.width = "700px";
 	pageCont.style.marginLeft = (menu.offsetWidth + margins)+"px";
 
 	menu.style.marginTop = (-menu.offsetHeight/2)+"px";
