@@ -163,3 +163,7 @@ html, body {
 .middle .pageCont {
 	display: inline-block;
 }
+
+.level-0 { 
+	 list-style-type: none;
+}
