@@ -31,6 +31,13 @@ h2 {
 	border-bottom: 1px dotted #333;
 }
 
+code {
+    background-color: #222;
+    padding: 2px 4px 2px 4px;
+    color: #999;
+    border-radius: 5px;
+}
+
 .header {
 	display: block;
 	width: 100%;
