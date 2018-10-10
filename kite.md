@@ -1,3 +1,5 @@
+## Intro
+
 Kite Messenger is a threaded chat for the discussion of multiple subjects, keeping track of every line of discussion. Kite Messenger was developed by [Caio Benatti Moretti](http://www.moretticb.com).
 
 This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](http://www.gnu.org/licenses/) for more details. You should have received a copy of the GNU General Public License along with this program. If not, see [here](http://www.gnu.org/licenses/).
@@ -18,7 +20,7 @@ The **Source/** folder encompasses two *Eclipse* project folders:
 
 The Kite Messenger structure consists of an HSQLDB database and Java applications for client and server sides.
 
-### Server - Launching and Installation
+### Server 
 
 The Kite Messenger Server root directory (**kiteServer/** folder) is structured as follows:
 

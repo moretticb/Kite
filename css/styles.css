@@ -135,7 +135,7 @@ a:hover {
 .middle .menu .cont {
 	background-color: #fcfcfc;
 	width: 192px;
-	min-height: 300px;
+	min-height: 150px;
 	clear: left;
 	float: left;
 	background-image: url("../images/menuRight.png");
