@@ -180,7 +180,7 @@ a:hover {
 	display: inline-block;
 }
 
-.menu ul {
+.menu ul, .menu  li {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -196,8 +196,9 @@ a:hover {
 }
 
 .menu .level-3 {
+	text-transform: capitalize;
 	margin-top: 5px;
 	line-height: 1;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: normal;
 }
