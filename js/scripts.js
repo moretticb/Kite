@@ -1,9 +1,16 @@
 window.onload = function(){
 	fixLayout();
+	putLogoSpr();
 }
 
-window.onresize = function(){
+window.onresize = function(e){
 	fixLayout();
+	fixLogoSpr();
+
+}
+
+window.onscroll = function(){
+	fixLogoSpr();
 }
 
 function fixLayout(){
@@ -22,4 +29,28 @@ function fixLayout(){
 	pageCont.style.marginLeft = (menu.offsetWidth + margins)+"px";
 
 	menu.style.marginTop = (-menu.offsetHeight/2)+"px";
+
+}
+
+function putLogoSpr(){
+	var cont = document.getElementById("cont");
+
+	cont.innerHTML = "<div class=\"logospr\" id=\"logospr\" onclick=\"window.location='#'\"></div>"+cont.innerHTML;
+}
+
+function fixLogoSpr(){
+	var frames = 37-1;
+	var rows = 5;
+	var cols = 8;
+	
+	var currentFrame = Math.round((document.documentElement.scrollTop/document.documentElement.scrollTopMax)*frames);
+	if (isNaN(currentFrame) || currentFrame >= frames)
+		currentFrame = frames;
+	var sprDiv = document.getElementById("logospr");
+
+	var ofTop = Math.floor(currentFrame/cols)*sprDiv.offsetHeight;
+	var ofLeft = (currentFrame%cols)*sprDiv.offsetWidth;
+
+	sprDiv.style.backgroundPosition = "-"+ofLeft+"px -"+ofTop+"px";
+	
 }

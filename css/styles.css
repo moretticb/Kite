@@ -230,3 +230,18 @@ strong {
 .menu a:hover {
 	color: #333;
 }
+
+.logospr {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-image: url("../images/kitelogospr.png");
+	background-size: 240px auto;
+	margin-left: 45px;
+	cursor: pointer;
+}
+
+.logospr:hover {
+	background-position: -120px -120px !important;
+}
