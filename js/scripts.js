@@ -41,6 +41,7 @@ function putLogoSpr(){
 
 function flip(){
 	window.flipAnim = 1 - window.flipAnim;
+	fixLogoSpr();
 }
 
 function fixLogoSpr(){
@@ -48,7 +49,8 @@ function fixLogoSpr(){
 	var rows = 5;
 	var cols = 8;
 	
-	var currentFrame = Math.round(Math.abs(flipAnim-document.documentElement.scrollTop/document.documentElement.scrollTopMax)*frames);
+	var scrollTopMax = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	var currentFrame = Math.round(Math.abs(flipAnim-document.documentElement.scrollTop/scrollTopMax)*frames);
 	if (isNaN(currentFrame) || currentFrame >= frames)
 		currentFrame = frames;
 	var sprDiv = document.getElementById("logospr");
