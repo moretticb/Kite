@@ -1,3 +1,4 @@
+var flipAnim = 0;
 window.onload = function(){
 	fixLayout();
 	putLogoSpr();
@@ -35,7 +36,11 @@ function fixLayout(){
 function putLogoSpr(){
 	var cont = document.getElementById("cont");
 
-	cont.innerHTML = "<div class=\"logospr\" id=\"logospr\" onclick=\"window.location='#'\"></div>"+cont.innerHTML;
+	cont.innerHTML = "<div class=\"logospr\" id=\"logospr\" onclick=\"window.location='#'; flip();\"></div>"+cont.innerHTML;
+}
+
+function flip(){
+	window.flipAnim = 1 - window.flipAnim;
 }
 
 function fixLogoSpr(){
@@ -43,7 +48,7 @@ function fixLogoSpr(){
 	var rows = 5;
 	var cols = 8;
 	
-	var currentFrame = Math.round((document.documentElement.scrollTop/document.documentElement.scrollTopMax)*frames);
+	var currentFrame = Math.round(Math.abs(flipAnim-document.documentElement.scrollTop/document.documentElement.scrollTopMax)*frames);
 	if (isNaN(currentFrame) || currentFrame >= frames)
 		currentFrame = frames;
 	var sprDiv = document.getElementById("logospr");
